@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a4cdd2e395e5af553425e76bdc1def0c"
+    android:animateLayoutChanges="true">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:visibility="gone"
+            android:id="@+id/b2"
+            android:textColor="#000000"
+            android:background="@drawable/selector"
+            android:layout_centerInParent="true"
+            android:text="进入世界"/>
+
+    <TextView
+        android:id="@+id/t2"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fffefe"
+        android:textSize="20dp"
+        android:visibility="gone"
+        android:text="你即将开始你的旅程"
+        android:layout_below="@+id/t1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/t4"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fffefe"
+        android:textSize="20dp"
+        android:visibility="gone"
+        android:text="好好磨练你的能力"
+        android:layout_below="@+id/t3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/t5"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fffefe"
+        android:textSize="20dp"
+        android:text="愿你能在宇宙中成为伟大的存在"
+        android:visibility="gone"
+        android:layout_below="@+id/t4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fffefe"
+        android:textSize="20dp"
+        android:text="欢迎来到浩瀚宇宙"
+        android:gravity="center"
+        android:layout_marginTop="47dp" />
+
+    <TextView
+        android:id="@+id/t3"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#fffefe"
+        android:textSize="20dp"
+        android:visibility="gone"
+        android:text="你将身为一个普通的地球人与别的宇宙人进行抗争"
+        android:layout_below="@+id/t2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/b1"
+        android:background="#00000000"
+        android:layout_marginBottom="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true" />
+
+</RelativeLayout>
